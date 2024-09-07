@@ -12,7 +12,7 @@ logging.basicConfig(format="%(asctime)s - %(name)s - %(levelname)s - %(message)s
 logger = logging.getLogger(__name__)
 
 # Путь к сохранению аудиофайлов
-BASE_AUDIO_PATH = "audio_files/"
+BASE_AUDIO_PATH = "/audio_files/"
 
 # Функция для реверсирования аудио
 async def reverse_audio(input_path, output_path):
